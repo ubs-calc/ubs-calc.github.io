@@ -1,0 +1,1524 @@
+{
+    "potions":[
+        {
+            "name":"Lesser Luck",
+            "cost":15,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Normal Luck",
+            "cost":35,
+            "potions":[
+                {
+                    "name":"Lesser Luck",
+                    "amount":4
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Grass",
+                    "amount":150,
+                    "rarity":12,
+                    "origin":"Woodlands"
+                },
+                {
+                    "name":"Thaumaturgy",
+                    "amount":15,
+                    "rarity":120,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Mythril",
+                    "amount":5000
+                }
+            ]
+        },
+        {
+            "name":"Greater Luck",
+            "cost":100,
+            "potions":[
+                {
+                    "name":"Normal Luck",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Viridian",
+                    "amount":1,
+                    "rarity":31500,
+                    "origin":"Woodlands"
+                },
+                {
+                    "name":"Thaumaturgy",
+                    "amount":90,
+                    "rarity":120,
+                    "origin":"Arcane"
+                },
+                {
+                    "name":"Amethyst",
+                    "amount":5,
+                    "rarity":5500,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Mythril",
+                    "amount":1000000
+                }
+            ]
+        },
+        {
+            "name":"Lesser Speed",
+            "cost":15,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Normal Speed",
+            "cost":35,
+            "potions":[
+                {
+                    "name":"Lesser Speed",
+                    "amount":4
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Iron",
+                    "amount":6,
+                    "rarity":2500,
+                    "origin":"Gilded"
+                },
+                {
+                    "name":"Mana",
+                    "amount":500,
+                    "rarity":2,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Aether",
+                    "amount":2500000
+                }
+            ]
+        },
+        {
+            "name":"Greater Speed",
+            "cost":100,
+            "potions":[
+                {
+                    "name":"Normal Speed",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Bluesteel",
+                    "amount":1,
+                    "rarity":42000,
+                    "origin":"Gilded"
+                },
+                {
+                    "name":"Mana",
+                    "amount":2500,
+                    "rarity":2,
+                    "origin":"Arcane"
+                },
+                {
+                    "name":"Amethyst",
+                    "amount":3,
+                    "rarity":5500,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Runestone",
+                    "amount":10000
+                }
+            ]
+        },
+        {
+            "name":"Lesser Frenzy",
+            "cost":15,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Normal Frenzy",
+            "cost":35,
+            "potions":[
+                {
+                    "name":"Lesser Frenzy",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Ash",
+                    "amount":80,
+                    "rarity":24,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Obsidian",
+                    "amount":1,
+                    "rarity":8700,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Mana",
+                    "amount":300,
+                    "rarity":2,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Electrum",
+                    "amount":1e21
+                },
+                {
+                    "name":"Runestone",
+                    "amount":100
+                }
+            ]
+        },
+        {
+            "name":"Greater Frenzy",
+            "cost":100,
+            "potions":[
+                {
+                    "name":"Normal Frenzy",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Ash",
+                    "amount":760,
+                    "rarity":24,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Cinnabar",
+                    "amount":1,
+                    "rarity":65500,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Mana",
+                    "amount":1750,
+                    "rarity":2,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Electrum",
+                    "amount":1e42
+                },
+                {
+                    "name":"Bismuth",
+                    "amount":150
+                }
+            ]
+        },
+        {
+            "name":"Lesser Lucky Strike",
+            "cost":15,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Normal Lucky Strike",
+            "cost":35,
+            "potions":[
+                {
+                    "name":"Lesser Lucky Strike",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Basalt",
+                    "amount":200,
+                    "rarity":6,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Magma",
+                    "amount":18,
+                    "rarity":200,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Thaumaturgy",
+                    "amount":12,
+                    "rarity":120,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Atom",
+                    "amount":25e9
+                },
+                {
+                    "name":"Runestone",
+                    "amount":100
+                }
+            ]
+        },
+        {
+            "name":"Greater Lucky Strike",
+            "cost":100,
+            "potions":[
+                {
+                    "name":"Normal Lucky Strike",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Basalt",
+                    "amount":1960,
+                    "rarity":6,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Magma",
+                    "amount":120,
+                    "rarity":200,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Obsidian",
+                    "amount":1750,
+                    "rarity":8700,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Thaumaturgy",
+                    "amount":70,
+                    "rarity":120,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Atom",
+                    "amount":150e15
+                },
+                {
+                    "name":"Runestone",
+                    "amount":100
+                }
+            ]
+        },
+        {
+            "name":"Lesser Magical Vision",
+            "cost":40,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Normal Magical Vision",
+            "cost":100,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Greater Magical Vision",
+            "cost":175,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Lesser Magic Concoction",
+            "cost":125,
+            "potions":[
+                {
+                    "name":"Lesser Frenzy",
+                    "amount":4
+                },
+                {
+                    "name":"Lesser Luck",
+                    "amount":4
+                },
+                {
+                    "name":"Lesser Speed",
+                    "amount":4
+                },
+                {
+                    "name":"Lesser Lucky Strike",
+                    "amount":4
+                },
+                {
+                    "name":"Lesser Magical Vision",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Pixium",
+                    "amount":350,
+                    "rarity":4,
+                    "origin":"Mystical"
+                },
+                {
+                    "name":"Nymphstone",
+                    "amount":1,
+                    "rarity":6460,
+                    "origin":"Mystical"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Quartz",
+                    "amount":1
+                }
+            ]
+        },
+        {
+            "name":"Normal Magic Concoction",
+            "cost":300,
+            "potions":[
+                {
+                    "name":"Normal Frenzy",
+                    "amount":4
+                },
+                {
+                    "name":"Normal Luck",
+                    "amount":4
+                },
+                {
+                    "name":"Normal Speed",
+                    "amount":4
+                },
+                {
+                    "name":"Normal Lucky Strike",
+                    "amount":4
+                },
+                {
+                    "name":"Lesser Magic Concoction",
+                    "amount":4
+                },
+                {
+                    "name":"Normal Magical Vision",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Manasteel",
+                    "amount":65,
+                    "rarity":2800,
+                    "origin":"Mystical"
+                },
+                {
+                    "name":"Adamantite",
+                    "amount":2,
+                    "rarity":73000,
+                    "origin":"Mystical"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Quartz",
+                    "amount":50000
+                }
+            ]
+        },
+        {
+            "name":"Greater Magic Concoction",
+            "cost":700,
+            "potions":[
+                {
+                    "name":"Greater Frenzy",
+                    "amount":4
+                },
+                {
+                    "name":"Greater Luck",
+                    "amount":4
+                },
+                {
+                    "name":"Greater Speed",
+                    "amount":4
+                },
+                {
+                    "name":"Greater Lucky Strike",
+                    "amount":4
+                },
+                {
+                    "name":"Normal Magic Concoction",
+                    "amount":4
+                },
+                {
+                    "name":"Greater Magical Vision",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Charmium",
+                    "amount":21,
+                    "rarity":24050,
+                    "origin":"Mystical"
+                },
+                {
+                    "name":"Wishalloy",
+                    "amount":2,
+                    "rarity":505750,
+                    "origin":"Mystical"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Quartz",
+                    "amount":15e9
+                }
+            ]
+        },
+        {
+            "name":"Lesser Potion of Potions",
+            "cost":125,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Normal Potion of Potions",
+            "cost":300,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Greater Potion of Potions",
+            "cost":700,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Lesser Lunar Flow",
+            "cost":50,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Normal Lunar Flow",
+            "cost":100,
+            "potions":[
+                {
+                    "name":"Lesser Lunar Flow",
+                    "amount":1
+                },
+                {
+                    "name":"Lesser Solar Flow",
+                    "amount":2
+                },
+                {
+                    "name":"Normal Speed Potion",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Mana",
+                    "amount":600,
+                    "rarity":2,
+                    "origin":"Arcane"
+                },
+                {
+                    "name":"Thaumaturgy",
+                    "amount":30,
+                    "rarity":120,
+                    "origin":"Arcane"
+                },
+                {
+                    "name":"Amethyst",
+                    "amount":7,
+                    "rarity":5500,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Starlight",
+                    "amount":70e18
+                },
+                {
+                    "name":"Mythril",
+                    "amount":50000000
+                }
+            ]
+        },
+        {
+            "name":"Greater Lunar Flow",
+            "cost":175,
+            "potions":[
+                {
+                    "name":"Normal Lunar Flow",
+                    "amount":1
+                },
+                {
+                    "name":"Normal Solar Flow",
+                    "amount":2
+                },
+                {
+                    "name":"Greater Speed Potion",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Mana",
+                    "amount":6200,
+                    "rarity":2,
+                    "origin":"Arcane"
+                },
+                {
+                    "name":"Thaumaturgy",
+                    "amount":225,
+                    "rarity":120,
+                    "origin":"Arcane"
+                },
+                {
+                    "name":"Amethyst",
+                    "amount":27,
+                    "rarity":5500,
+                    "origin":"Arcane"
+                },
+                {
+                    "name":"Prudentium",
+                    "amount":2,
+                    "rarity":100000,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Starlight",
+                    "amount":70e39
+                },
+                {
+                    "name":"Aether",
+                    "amount":100e18
+                }
+            ]
+        },
+        {
+            "name":"Lesser Solar Flow",
+            "cost":50,
+            "potions":[
+                {
+                    "name":"nothing",
+                    "amount":1
+                }
+            ],
+            "geode":[
+            ],
+            "stat":[
+            ]
+        },
+        {
+            "name":"Normal Solar Flow",
+            "cost":100,
+            "potions":[
+                {
+                    "name":"Lesser Solar Flow",
+                    "amount":1
+                },
+                {
+                    "name":"Lesser Lunar Flow",
+                    "amount":2
+                },
+                {
+                    "name":"Normal Luck Potion",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Ash",
+                    "amount":450,
+                    "rarity":24,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Magma",
+                    "amount":50,
+                    "rarity":200,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Cinnabar",
+                    "amount":1,
+                    "rarity":65500,
+                    "origin":"Infernal"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Brimstone",
+                    "amount":6e42
+                },
+                {
+                    "name":"Amber",
+                    "amount":3
+                }
+            ]
+        },
+        {
+            "name":"Greater Solar Flow",
+            "cost":175,
+            "potions":[
+                {
+                    "name":"Normal Solar Flow",
+                    "amount":1
+                },
+                {
+                    "name":"Normal Lunar Flow",
+                    "amount":2
+                },
+                {
+                    "name":"Greater Luck Potion",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Ash",
+                    "amount":450,
+                    "rarity":24,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Magma",
+                    "amount":50,
+                    "rarity":200,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Red Quartz",
+                    "amount":1,
+                    "rarity":280000,
+                    "origin":"Infernal"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Brimstone",
+                    "amount":96e63
+                },
+                {
+                    "name":"Amber",
+                    "amount":80
+                }
+            ]
+        },
+        {
+            "name":"Lesser Eclipse Concoction",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Luck",
+                    "amount":2
+                },
+                {
+                    "name":"Lesser Speed",
+                    "amount":2
+                },
+                {
+                    "name":"Lesser Lunar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Magical Vision",
+                    "amount":2
+                },
+                {
+                    "name":"Lesser Solar Flow",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Glitterdust",
+                    "amount":10,
+                    "rarity":99,
+                    "origin":"Mystical"
+                },
+                {
+                    "name":"Manasteel",
+                    "amount":1,
+                    "rarity":2800,
+                    "origin":"Mystical"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Quartz",
+                    "amount":1
+                }
+            ]
+        },
+        {
+            "name":"Normal Eclipse Concoction",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Normal Luck",
+                    "amount":2
+                },
+                {
+                    "name":"Normal Speed",
+                    "amount":2
+                },
+                {
+                    "name":"Lesser Eclipse Concoction",
+                    "amount":4
+                },
+                {
+                    "name":"Normal Lunar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Magical Vision",
+                    "amount":2
+                },
+                {
+                    "name":"Normal Solar Flow",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Pixium",
+                    "amount":6000,
+                    "rarity":4,
+                    "origin":"Mystical"
+                },
+                {
+                    "name":"Charmium",
+                    "amount":4,
+                    "rarity":24050,
+                    "origin":"Mystical"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Quartz",
+                    "amount":50000
+                }
+            ]
+        },
+        {
+            "name":"Greater Eclipse Concoction",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Greater Luck",
+                    "amount":2
+                },
+                {
+                    "name":"Greater Speed",
+                    "amount":2
+                },
+                {
+                    "name":"Normal Eclipse Concoction",
+                    "amount":4
+                },
+                {
+                    "name":"Greater Lunar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Magical Vision",
+                    "amount":2
+                },
+                {
+                    "name":"Greater Solar Flow",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Nymphstone",
+                    "amount":160,
+                    "rarity":6460,
+                    "origin":"Mystical"
+                },
+                {
+                    "name":"Mysticore",
+                    "amount":4,
+                    "rarity":235000,
+                    "origin":"Mystical"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Quartz",
+                    "amount":15e9
+                }
+            ]
+        },
+        {
+            "name":"Lesser Combustion",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Frenzy",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Speed",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Ash",
+                    "amount":500,
+                    "rarity":24,
+                    "origin":"Infernal"
+                },
+                {
+                    "name":"Magma",
+                    "amount":60,
+                    "rarity":200,
+                    "origin":"Infernal"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Amber",
+                    "amount":500
+                }
+            ]
+        },
+        {
+            "name":"Normal Combustion",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Combustion",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Frenzy",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Speed",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Cinnabar",
+                    "amount":3,
+                    "rarity":65500,
+                    "origin":"Infernal"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Amber",
+                    "amount":1e6
+                }
+            ]
+        },
+        {
+            "name":"Greater Combustion",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Normal Combustion",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Frenzy",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Speed",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Red Quartz",
+                    "amount":5,
+                    "rarity":280000,
+                    "origin":"Infernal"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Amber",
+                    "amount":1e15
+                }
+            ]
+        },
+        {
+            "name":"Lesser Fortune",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Luck",
+                    "amount":1
+                },
+                {
+                    "name":"Lesser Lucky Strike",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Jade",
+                    "amount":650,
+                    "rarity":12,
+                    "origin":"Gilded"
+                },
+                {
+                    "name":"Iron",
+                    "amount":12,
+                    "rarity":2500,
+                    "origin":"Gilded"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Amber",
+                    "amount":500
+                }
+            ]
+        },
+        {
+            "name":"Normal Fortune",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Fortune",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Luck",
+                    "amount":1
+                },
+                {
+                    "name":"Normal Lucky Strike",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Bluesteel",
+                    "amount":3,
+                    "rarity":42000,
+                    "origin":"Gilded"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Amber",
+                    "amount":1e6
+                }
+            ]
+        },
+        {
+            "name":"Greater Fortune",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Normal Fortune",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Luck",
+                    "amount":1
+                },
+                {
+                    "name":"Greater Lucky Strike",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Platinum",
+                    "amount":5,
+                    "rarity":280750,
+                    "origin":"Gilded"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Amber",
+                    "amount":1e15
+                }
+            ]
+        },
+        {
+            "name":"Lesser Concentrated Luck Elixir",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Luck",
+                    "amount":4
+                },
+                {
+                    "name":"Normal Luck",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Grass",
+                    "amount":200,
+                    "rarity":12,
+                    "origin":"Woodlands"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Runestone",
+                    "amount":5000
+                }
+            ]
+        },
+        {
+            "name":"Normal Concentrated Luck Elixir",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Concentrated Luck Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Fortune",
+                    "amount":1
+                },
+                {
+                    "name":"Normal Luck",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Luck",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Viridian",
+                    "amount":2,
+                    "rarity":31500,
+                    "origin":"Woodlands"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Runestone",
+                    "amount":1e9
+                }
+            ]
+        },
+        {
+            "name":"Greater Concentrated Luck Elixir",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Normal Concentrated Luck Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Fortune",
+                    "amount":1
+                },
+                {
+                    "name":"Greater Luck",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Amazonite",
+                    "amount":1,
+                    "rarity":475000,
+                    "origin":"Woodlands"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Runestone",
+                    "amount":1e30
+                }
+            ]
+        },
+        {
+            "name":"Lesser Concentrated Speed Elixir",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Speed",
+                    "amount":4
+                },
+                {
+                    "name":"Normal Speed",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Mana",
+                    "amount":700,
+                    "rarity":2,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Runestone",
+                    "amount":5000000
+                }
+            ]
+        },
+        {
+            "name":"Normal Concentrated Speed Elixir",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Concentrated Speed Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Combustion",
+                    "amount":1
+                },
+                {
+                    "name":"Normal Speed",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Speed",
+                    "amount":1
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Amethyst",
+                    "amount":12,
+                    "rarity":5500,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Mythril",
+                    "amount":1e15
+                }
+            ]
+        },
+        {
+            "name":"Greater Concentrated Speed Elixir",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Normal Concentrated Speed Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Combustion",
+                    "amount":1
+                },
+                {
+                    "name":"Greater Speed",
+                    "amount":3
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Prudentium",
+                    "amount":4,
+                    "rarity":100000,
+                    "origin":"Arcane"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Mythril",
+                    "amount":1e60
+                }
+            ]
+        },
+        {
+            "name":"Lesser Perpetual Tonic",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Combustion Potion",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Concentrated Speed Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Lunar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Magical Vision",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Potion of Potions",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Pastelite",
+                    "amount":75,
+                    "rarity":3500,
+                    "origin":"Chromatic"
+                },
+                {
+                    "name":"Zircon",
+                    "amount":5,
+                    "rarity":55780,
+                    "origin":"Chromatic"
+                },
+                {
+                    "name":"Chroma",
+                    "amount":1,
+                    "rarity":288500,
+                    "origin":"Chromatic"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Sparkletime",
+                    "amount":1
+                }
+            ]
+        },
+        {
+            "name":"Normal Perpetual Tonic",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Perpetual Tonic",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Combustion Potion",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Concentrated Speed Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Lunar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Magical Vision",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Potion of Potions",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Pastelite",
+                    "amount":150,
+                    "rarity":3500,
+                    "origin":"Chromatic"
+                },
+                {
+                    "name":"Zircon",
+                    "amount":20,
+                    "rarity":55780,
+                    "origin":"Chromatic"
+                },
+                {
+                    "name":"Chroma",
+                    "amount":2,
+                    "rarity":288500,
+                    "origin":"Chromatic"
+                },
+                {
+                    "name":"Coloressence",
+                    "amount":1,
+                    "rarity":900000,
+                    "origin":"Chromatic"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Sparkletime",
+                    "amount":10000
+                }
+            ]
+        },
+        {
+            "name":"Greater Perpetual Tonic",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Normal Perpetual Tonic",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Combustion Potion",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Concentrated Speed Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Lunar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Magical Vision",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Potion of Potions",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Pastelite",
+                    "amount":300,
+                    "rarity":3500,
+                    "origin":"Chromatic"
+                },
+                {
+                    "name":"Zircon",
+                    "amount":40,
+                    "rarity":55780,
+                    "origin":"Chromatic"
+                },
+                {
+                    "name":"Chroma",
+                    "amount":4,
+                    "rarity":288500,
+                    "origin":"Chromatic"
+                },
+                {
+                    "name":"Coloressence",
+                    "amount":2,
+                    "rarity":900000,
+                    "origin":"Chromatic"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Sparkletime",
+                    "amount":5e6
+                }
+            ]
+        }
+    ]
+}

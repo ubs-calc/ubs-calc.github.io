@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>potion shop min maxing</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="header">Potion Shop Min/Maxing</div>
+            <nav class="navbar">
+                <p>luck: x<span id="luckDisplay">1</span></p>
+                <p>rollspeed: <span id="rollSpeedDisplay">1</span>/s</p>
+            </nav>
+        </header>
+
+        <label for="luckInput">Luck stat (no gears):</label>
+        <input type="number" id="luckInput" value="1" min="1" max="100">
+        <button id="confirmLuck">Confirm</button>
+        <br>
+        <label for="rollSpeedInput">Rollspeed (no gears):</label>
+        <input type="number" id="rollSpeedInput" value="1" min="1" max="100">
+        <button id="confirmRollSpeed">Confirm</button>
+        <br>
+        <label for="potionNameInput">Potion Name:</label>
+        <input type="text" id="potionNameInput" value="Greater Perpetual Tonic">
+        <label for="potionAmountInput">Amount:</label>
+        <input type="text" id="potionAmountInput" value="1">
+        <button id="confirmPotion">Confirm</button>
+
+        <div id="potionsContainer"></div>
+        <div id="totalCosts">
+            <h2>Total Costs</h2>
+            <ul id="totalCostsList"></ul>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

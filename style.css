@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#potionNameInput {
+    width: 200px;
+}
+
+.navbar {
+  display: flex;    
+  gap: 20px;     
+  background-color: #ccc;
+  padding: 5px;
+  padding-left: 10px;
+  height: 30px;
+  align-items: center;
+}
+
+#potionsContainer ul {
+    list-style-type: disc;
+    padding-left: 1em;
+}
+#potionsContainer li button {
+    background: none;
+    border: none;
+    font-weight: bold;
+}
