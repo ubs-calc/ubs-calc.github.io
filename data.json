@@ -1349,7 +1349,7 @@
             "cost":0,
             "potions":[
                 {
-                    "name":"Lesser Combustion Potion",
+                    "name":"Lesser Combustion",
                     "amount":3
                 },
                 {
@@ -1405,7 +1405,7 @@
                     "amount":3
                 },
                 {
-                    "name":"Normal Combustion Potion",
+                    "name":"Normal Combustion",
                     "amount":3
                 },
                 {
@@ -1467,7 +1467,7 @@
                     "amount":3
                 },
                 {
-                    "name":"Greater Combustion Potion",
+                    "name":"Greater Combustion",
                     "amount":3
                 },
                 {
@@ -1511,6 +1511,182 @@
                     "amount":2,
                     "rarity":900000,
                     "origin":"Chromatic"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Sparkletime",
+                    "amount":5e6
+                }
+            ]
+        },
+        {
+            "name":"Lesser Ephemeral Tonic",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Fortune",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Concentrated Luck Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Solar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Magical Vision",
+                    "amount":3
+                },
+                {
+                    "name":"Lesser Potion of Potions",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Glitterdust",
+                    "amount":400,
+                    "rarity":99,
+                    "origin":"Mythical"
+                },
+                {
+                    "name":"Manasteel",
+                    "amount":8,
+                    "rarity":2800,
+                    "origin":"Mythical"
+                },
+                {
+                    "name":"Adamantite",
+                    "amount":2,
+                    "rarity":73000,
+                    "origin":"Mythical"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Sparkletime",
+                    "amount":1
+                }
+            ]
+        },
+        {
+            "name":"Normal Ephemeral Tonic",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Lesser Ephemeral Tonic",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Fortune",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Concentrated Luck Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Solar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Magical Vision",
+                    "amount":3
+                },
+                {
+                    "name":"Normal Potion of Potions",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Glitterdust",
+                    "amount":800,
+                    "rarity":99,
+                    "origin":"Mythical"
+                },
+                {
+                    "name":"Manasteel",
+                    "amount":16,
+                    "rarity":2800,
+                    "origin":"Mythical"
+                },
+                {
+                    "name":"Adamantite",
+                    "amount":4,
+                    "rarity":73000,
+                    "origin":"Mythical"
+                },
+                {
+                    "name":"Mysticore",
+                    "amount":1,
+                    "rarity":235000,
+                    "origin":"Mythical"
+                }
+            ],
+            "stat":[
+                {
+                    "name":"Sparkletime",
+                    "amount":10000
+                }
+            ]
+        },
+        {
+            "name":"Greater Ephemeral Tonic",
+            "cost":0,
+            "potions":[
+                {
+                    "name":"Normal Perpetual Tonic",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Combustion",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Concentrated Speed Elixir",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Lunar Flow",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Magical Vision",
+                    "amount":3
+                },
+                {
+                    "name":"Greater Potion of Potions",
+                    "amount":2
+                }
+            ],
+            "geode":[
+                {
+                    "name":"Glitterdust",
+                    "amount":1600,
+                    "rarity":99,
+                    "origin":"Mythical"
+                },
+                {
+                    "name":"Manasteel",
+                    "amount":32,
+                    "rarity":2800,
+                    "origin":"Mythical"
+                },
+                {
+                    "name":"Adamantite",
+                    "amount":8,
+                    "rarity":73000,
+                    "origin":"Mythical"
+                },
+                {
+                    "name":"Mysticore",
+                    "amount":2,
+                    "rarity":235000,
+                    "origin":"Mythical"
                 }
             ],
             "stat":[
